@@ -1,0 +1,30 @@
+
+NUMERIC TYPES
+| Type           | Description                 | Example Values        |
+| -------------- | --------------------------- | --------------------- |
+| `INT`          | Integer, whole numbers      | `1`, `200`, `-35`     |
+| `TINYINT`      | Very small integer (±127)   | `0`, `1`              |
+| `SMALLINT`     | Small integer (±32k)        | `1500`                |
+| `BIGINT`       | Large integer               | `9223372036854775807` |
+| `DECIMAL(x,y)` | Exact decimal (e.g., money) | `12.50`, `999.99`     |
+| `FLOAT`        | Approximate float           | `3.14`, `2.71828`     |
+| `DOUBLE`       | Larger/precise float        | `12345.6789`          |
+
+
+STRING TYPES
+| Type         | Description                          | Example Values                  |
+| ------------ | ------------------------------------ | ------------------------------- |
+| `VARCHAR(n)` | Variable-length string (max n chars) | `'John'`, `'email@example.com'` |
+| `CHAR(n)`    | Fixed-length string                  | `'NY'`, `'A '`                  |
+| `TEXT`       | Large text (up to 65,535 chars)      | Long descriptions               |
+| `ENUM`       | One value from a predefined list     | `'small'`, `'medium'`           |
+
+
+DATE/TIME TYPES
+| Type        | Description               | Example Values        |
+| ----------- | ------------------------- | --------------------- |
+| `DATE`      | YYYY-MM-DD                | `2025-07-07`          |
+| `DATETIME`  | Date and time             | `2025-07-07 13:45:00` |
+| `TIMESTAMP` | Auto-updating time fields | `2025-07-07 13:45:00` |
+| `TIME`      | Time only (HH\:MM\:SS)    | `08:30:00`            |
+| `YEAR`      | Year (4 digits)           | `2025`                |
