@@ -5,4 +5,4 @@ common SQL commands
   CREATE DATABASE name_of_database; 
 
 -- shows all databases   
-  SHOW DATABASES
+  SHOW DATABASES;
